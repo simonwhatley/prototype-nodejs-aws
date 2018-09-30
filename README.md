@@ -49,9 +49,9 @@ Create a blank project using the following command and entering the required inf
 npm init
 ```
 
-Next, create a folder in the root directory with the name "data" and create a text file called "file.txt" and enter some dummy content.
+Next, create a folder in the root directory with the name "data" and create a text file called `file.txt` and enter some dummy content.
 
-In Terminal, go to the root folder of your app and using the following command, install the AWS SDK package.
+In Terminal, go to the root folder of your app and using the following command, install the [AWS SDK module](https://www.npmjs.com/package/aws-sdk) for JavaScript.
 
 ```
 npm install aws-sdk --save
@@ -63,7 +63,9 @@ Since we will be using environment variables, rather than hard-coding key-pairs 
 npm install dotenv --save
 ```
 
-We also need a start file for the application. In the root directory, create a file called `start.js`.
+Dotenv is a zero-dependency module that loads environment variables from a `.env` file into `process.env`. Storing configuration in the environment separate from code is based on [The Twelve-Factor App](http://12factor.net/config) methodology.
+
+We also need a start file for the application. In the root directory, create a file called `start.js`. The file can be empty for now.
 
 Now, to create the file that we will use to upload a file to the S3 bucket. In the root directory, create a file called `index.js` with the following content:
 
