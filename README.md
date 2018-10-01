@@ -131,3 +131,6 @@ node index.js
 ```
 
 If successful, you should see a message in the console stating the file has been uploaded and where it has been uploaded to. If you go to the [AWS S3 Console](https://s3.console.aws.amazon.com/s3/home) you should be able to see your file listed.
+
+### Kudos
+Thanks goes to [Gonzalo P.](https://github.com/gonzalompp) for his [Medium post](https://medium.com/codebase/using-aws-s3-buckets-in-a-nodejs-app-74da2fc547a6) on the subject.
