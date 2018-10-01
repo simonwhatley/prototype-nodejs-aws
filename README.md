@@ -32,13 +32,13 @@ On the top-bar, go to "Services". then under the "Storage" heading click "S3" an
 
 Then, fill the information required in the form. The bucket name is required and must be unique.
 
-![Configure bucket's name and region](https://github.com/whatterz/prototype-nodejs-aws/blob/master/docs/images/aws-s3-configure-bucket-1.png)
+![Configure bucket's name and region](https://github.com/whatterz/prototype-nodejs-aws/blob/master/docs/images/aws-configure-s3-bucket-1.png)
 
-![Configure bucket's properties](https://github.com/whatterz/prototype-nodejs-aws/blob/master/docs/images/aws-s3-configure-bucket-2.png)
+![Configure bucket's properties](https://github.com/whatterz/prototype-nodejs-aws/blob/master/docs/images/aws-configure-s3-bucket-2.png)
 
-![Configure bucket's permissions](https://github.com/whatterz/prototype-nodejs-aws/blob/master/docs/images/aws-s3-configure-bucket-3.png)
+![Configure bucket's permissions](https://github.com/whatterz/prototype-nodejs-aws/blob/master/docs/images/aws-configure-s3-bucket-3.png)
 
-![Review and save bucket's configuration](https://github.com/whatterz/prototype-nodejs-aws/blob/master/docs/images/aws-s3-configure-bucket-4.png)
+![Review and save bucket's configuration](https://github.com/whatterz/prototype-nodejs-aws/blob/master/docs/images/aws-configure-s3-bucket-4.png)
 
 For this example we will leave the properties and permissions with the default values, so click "Next" through all the screens and then "Create bucket".
 
