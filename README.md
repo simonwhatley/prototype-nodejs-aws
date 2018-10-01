@@ -28,15 +28,21 @@ Save the keys in a secure place. You will need them later.
 ## Step 2: Create an S3 Bucket
 On the top-bar, go to "Services". then under the "Storage" heading click "S3" and then click on "Create Bucket".
 
-[[IMAGE]]
+![Create S3 bucket](https://raw.githubusercontent.com/prototype-nodejs-aws/tree/master/docs/images/aws-s3-bucket-list-1.png)
 
 Then, fill the information required in the form. The bucket name is required and must be unique.
 
-[[IMAGE]]
+![Configure bucket's name and region](https://raw.githubusercontent.com/prototype-nodejs-aws/tree/master/docs/images/aws-s3-configure-bucket-1.png)
+
+![Configure bucket's properties](https://raw.githubusercontent.com/prototype-nodejs-aws/tree/master/docs/images/aws-s3-configure-bucket-2.png)
+
+![Configure bucket's permissions](https://raw.githubusercontent.com/prototype-nodejs-aws/tree/master/docs/images/aws-s3-configure-bucket-3.png)
+
+![Review and save bucket's configuration](https://raw.githubusercontent.com/prototype-nodejs-aws/tree/master/docs/images/aws-s3-configure-bucket-4.png)
 
 For this example we will leave the properties and permissions with the default values, so click "Next" through all the screens and then "Create bucket".
 
-[[IMAGE]]
+![S3 Bucket list](https://raw.githubusercontent.com/prototype-nodejs-aws/tree/master/docs/images/aws-s3-bucket-list-2.png)
 
 Your bucket will show up on your Amazon S3 list. Take a note of the bucket name, if you haven't already, as it will be used in your application.
 
@@ -69,7 +75,7 @@ We also need a start file for the application. In the root directory, create a f
 
 Now, to create the file that we will use to upload a file to the S3 bucket. In the root directory, create a file called `index.js` with the following content:
 
-```
+```javascript
 const AWS = require('aws-sdk');
 const dotenv = require('dotenv');
 const fs = require('fs');
